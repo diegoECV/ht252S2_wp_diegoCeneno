@@ -8,7 +8,7 @@ pymysql.install_as_MySQLdb()
 app = Flask(__name__)
 
 DB_CONFIG = {
-    'host': 'hackaton-aws.c1a22wiaitys.us-east-1.rds.amazonaws.com',
+    'host': 'aws.czmy26ksgtca.us-east-1.rds.amazonaws.com',
     'user': 'root',
     'password': 'diego1416',
     'database': 'hackaton',
